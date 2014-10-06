@@ -19,7 +19,6 @@ public class SimuladorMemoria {
         do {
             System.out.println("Qual tipo de política de substituição de quadros deseja usar?\n");
             System.out.println("Digite: 1 para lru;\n\t 2 para fifo;\n\t 3 para random.\n");
-            System.out.println("Para sair, digite qualquer outro número.\n");
             politica = leituraDaTela.nextInt();
         } while ((politica < 1) || (politica > 3));
         try {
