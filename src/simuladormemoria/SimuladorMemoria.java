@@ -77,7 +77,7 @@ public class SimuladorMemoria {
     }
 
     public static void imprimeMemoria(ArrayList<Pagina> memoria, int contador) {
-        System.out.println("Estado atual da memória no tempo " + contador);
+        System.out.println("Estado atual da memória no tempo " + (contador+1));
         for (int i = 0; i < memoria.size(); i++) {
             if ((contador < memoria.size()) && (i > contador)) {
                 break;
