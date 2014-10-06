@@ -71,6 +71,7 @@ public class SimuladorMemoria {
             //caso contrário, a fração de acertos é acertos/contador+1, porque o contador começa em -1 e o primeiro quadro entra no tempo 0.
 
             System.out.println("Fração de Acertos = "+fracaoAcertosErros);
+            in.close();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
