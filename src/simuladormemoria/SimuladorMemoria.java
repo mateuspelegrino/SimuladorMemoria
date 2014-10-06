@@ -67,8 +67,6 @@ public class SimuladorMemoria {
                 imprimeMemoria(memoria,contador);
                 dadoLido = in.readLine();
             }
-            System.out.println("contador "+contador);
-            System.out.println("acertos "+acertos);
             fracaoAcertosErros = (contador < 0)? 0 : (float)acertos/(float)(contador+1); //se contador <0 fração de acertos é 0
             //caso contrário, a fração de acertos é acertos/contador+1, porque o contador começa em -1 e o primeiro quadro entra no tempo 0.
 
